@@ -3,7 +3,7 @@ import img1 from '../Home/image/Group 167.png'
 
 const Adventure = () => {
     return (
-        <div className='mt-[210px] grid md:grid-cols-2 gap-[250px]'>
+        <div className='mt-[210px] grid md:grid-cols-2 gap-[220px]'>
             {/* profile */}
    <div className='bg-sky-50 border-none'>
 
@@ -58,7 +58,7 @@ const Adventure = () => {
 
 {/* content */}
 <div className='relative'>
-  <div className='border-4 border-red-500 -rotate-180 rounded-full h-[93px] w-[93px] absolute left-[850px] top-[1270px]'></div>
+  <div className=' rounded-full h-[93px] w-[93px] absolute '></div>
   <div className=''>
     <h1>
       <span className='text-4xl font-bold'>Tropical Adventure</span> <br />

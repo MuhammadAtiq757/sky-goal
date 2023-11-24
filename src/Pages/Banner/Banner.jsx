@@ -3,7 +3,7 @@ import banner from '../Home/image/Group 171.png';
 
 const Banner = () => {
   return (
-    <div className='grid md:grid-cols-2'>
+    <div className='grid md:grid-cols-2 gap-4'>
       {/* Content */}
       <div className='md:mt-[240px] md:w-[636px] md:h-[520px] p-4 md:p-0'>
         <p className='font-semibold text-lg mb-2 md:mb-4'>
@@ -16,7 +16,7 @@ const Banner = () => {
 
         <p className='text-[#505C59] mt-4 md:mt-8'>
           Lorem ipsum dolor sit amet consectetur. Sit mattis donec mi bibendum
-          integer rutrum nisi. A nec nisl vitae{' '}
+          integer <br /> rutrum nisi. A nec nisl vitae{' '}
         </p>
         <h1 className='bg-[#F27A44] rounded-full px-4 py-2 md:px-8 md:py-4 btn mt-4 md:mt-8 text-white'>
           SIGN UP
@@ -24,9 +24,9 @@ const Banner = () => {
       </div>
 
       {/* Image */}
-      <div className=' md:block'>
+      <div className=' md:block ml-[90px]'>
         <img
-          className='w-full h-auto mt-4 md:mt-0'
+          className='max-w-full md:max-h-full w-[450px] h-[640px]'
           src={banner}
           alt='Tropical Destinations'
         />

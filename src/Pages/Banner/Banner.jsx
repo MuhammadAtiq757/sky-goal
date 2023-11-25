@@ -3,7 +3,7 @@ import banner from '../Home/image/Group 171.png';
 
 const Banner = () => {
   return (
-    <div className='grid md:grid-cols-2 gap-4'>
+    <div className='grid md:grid-cols-2 gap-4 bg-none'>
       {/* Content */}
       <div className='md:mt-[240px] md:w-[636px] md:h-[520px] p-4 md:p-0'>
         <p className='font-semibold text-lg mb-2 md:mb-4'>
